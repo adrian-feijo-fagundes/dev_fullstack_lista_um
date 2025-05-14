@@ -11,6 +11,8 @@ import { print10Example } from "./exercicio_10.js";
 import { sumFive } from "./exercicio_11.js";
 import { multiplicationTable } from "./exercicio_12.js";
 import { calcAvarage } from "./exercicio_13.js";
+import { calcFactorial } from "./exercicio_14.js";
+import { calcFibonacci } from "./exercicio_15.js";
 
 export const exercises = [
     isEvenExample,
@@ -25,5 +27,7 @@ export const exercises = [
     print10Example,
     sumFive,
     multiplicationTable,
-    calcAvarage
+    calcAvarage,
+    calcFactorial,
+    calcFibonacci
 ]

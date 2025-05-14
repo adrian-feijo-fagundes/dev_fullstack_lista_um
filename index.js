@@ -2,11 +2,6 @@ import promptSync from "prompt-sync";
 
 import { exercises } from "./src/listaExercicios.js";
 
-
-const start = (callback) => {
-    callback()
-}
-
 const main = () => {
     const prompt = promptSync();
 
@@ -23,7 +18,7 @@ const main = () => {
         if (isNaN(option) || option > exercises.length) {
             console.log("Isso não foi uma escolha válida")
         } else {
-            start(exercises[option - 1])
+            exercises[option - 1]()
         }
         prompt("\nClique na tecla ENTER para continuar...")
         console.clear()
