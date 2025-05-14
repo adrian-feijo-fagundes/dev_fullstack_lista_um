@@ -5,6 +5,7 @@ import { menu } from "./exercicio_04.js";
 import { calcIMCExample } from "./exercicio_05.js";
 import { showTriangleTypeExample } from "./exercicio_06.js";
 import { calcAppleTotalPriceExample } from "./exercicio_07.js";
+import { sortTwoExample } from "./exercicio_08.js";
 
 export const exercises = [
     isEvenExample,
@@ -13,5 +14,6 @@ export const exercises = [
     menu,
     calcIMCExample,
     showTriangleTypeExample,
-    calcAppleTotalPriceExample
+    calcAppleTotalPriceExample,
+    sortTwoExample
 ]
