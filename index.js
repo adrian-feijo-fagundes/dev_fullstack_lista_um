@@ -5,7 +5,7 @@ import { classifyAgeExample } from "./src/exercicio_02.js";
 import { classifyGradeExample } from "./src/exercicio_03.js";
 import { menu } from "./src/exercicio_04.js";
 import { calcIMCExample } from "./src/exercicio_05.js";
-
+import { showTriangleTypeExample } from "./src/exercicio_06.js";
 
 const start = (callback) => {
     callback()
@@ -16,8 +16,8 @@ const exercises = [
     classifyAgeExample,
     classifyGradeExample,
     menu,
-    calcIMCExample
-
+    calcIMCExample,
+    showTriangleTypeExample
 ]
 
 const main = () => {
