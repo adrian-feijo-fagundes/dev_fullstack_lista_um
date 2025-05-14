@@ -1,6 +1,5 @@
 import promptSync from "prompt-sync";
 
-
 export const calcAvarage = () => {
     const prompt = promptSync()
     console.clear()
