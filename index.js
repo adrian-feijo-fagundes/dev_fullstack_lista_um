@@ -1,24 +1,11 @@
 import promptSync from "prompt-sync";
 
-import { isEvenExample } from "./src/exercicio_01.js";
-import { classifyAgeExample } from "./src/exercicio_02.js";
-import { classifyGradeExample } from "./src/exercicio_03.js";
-import { menu } from "./src/exercicio_04.js";
-import { calcIMCExample } from "./src/exercicio_05.js";
-import { showTriangleTypeExample } from "./src/exercicio_06.js";
+import { exercises } from "./src/listaExercicios.js";
+
 
 const start = (callback) => {
     callback()
 }
-
-const exercises = [
-    isEvenExample,
-    classifyAgeExample,
-    classifyGradeExample,
-    menu,
-    calcIMCExample,
-    showTriangleTypeExample
-]
 
 const main = () => {
     const prompt = promptSync();
