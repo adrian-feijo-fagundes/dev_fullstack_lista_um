@@ -1,4 +1,7 @@
 const showTriangleType = (aSide, bSide, cSide) => {
+    if (aSide >= bSide + cSide || bSide >= aSide + cSide || cSide >= aSide + bSide) {
+        return "Não é um triângulo"
+    }
     if (aSide === bSide && bSide === cSide) return "Equilátero"
     if (aSide === bSide || aSide === cSide || bSide === cSide) return "Isóceles"
     return "Escaleno"
@@ -16,10 +19,10 @@ export const showTriangleTypeExample = () => {
 
     const triangles = [
         { aSide: 1, bSide: 1, cSide: 1},
-        { aSide: 2, bSide: 1, cSide: 1},
-        { aSide: 1, bSide: 2, cSide: 1},
-        { aSide: 1, bSide: 1, cSide: 2},
-        { aSide: 1, bSide: 2, cSide: 3},
+        { aSide: 1.2, bSide: 1, cSide: 1},
+        { aSide: 1, bSide: 1.2, cSide: 1},
+        { aSide: 1, bSide: 1, cSide: 1.2},
+        { aSide: 1, bSide: 1.2, cSide: 1.3},
     ]
 
     for (let index in triangles) {
