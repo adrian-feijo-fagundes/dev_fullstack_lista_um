@@ -25,5 +25,3 @@ export const calcIMCExample = () => {
 
     console.log(`\nUma pessoa que pesa ${weight} e tem a altura de ${height} tem o imc ${result.imc} e tem a classificação de ${result.classification}\n`)
 }
-
-calcIMCExample()
