@@ -11,7 +11,7 @@ const calcIMC = (weight, height) => {
     return { imc, classification}
 }
 
-const calcIMCExample = () => {
+export const calcIMCExample = () => {
     console.log(
         "\n5. Escreva um programa que calcula o Índice de Massa Corporal (IMC) de uma pessoa e",
         "\n determina a categoria de peso (baixo peso, peso normal, sobrepeso, obesidade)",
