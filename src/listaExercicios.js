@@ -8,6 +8,7 @@ import { calcAppleTotalPriceExample } from "./exercicio_07.js";
 import { sortTwoExample } from "./exercicio_08.js";
 import { finalCountdown } from "./exercicio_09.js";
 import { print10Example } from "./exercicio_10.js";
+import { sumFive } from "./exercicio_11.js";
 
 export const exercises = [
     isEvenExample,
@@ -19,5 +20,6 @@ export const exercises = [
     calcAppleTotalPriceExample,
     sortTwoExample,
     finalCountdown,
-    print10Example
+    print10Example,
+    sumFive
 ]
