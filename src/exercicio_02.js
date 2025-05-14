@@ -10,7 +10,7 @@ const classifyAge = (age) => {
 
 export const classifyAgeExample = () => {
     console.log(
-        "  2. Crie um programa que classifica a idade de uma pessoa em categorias (criança,",
+        "\n 2. Crie um programa que classifica a idade de uma pessoa em categorias (criança,",
         "\nadolescente, adulto, idoso) com base no valor fornecido, utilizando uma estrutura de",
         "\ncontrole if-else."
     )
