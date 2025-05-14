@@ -10,6 +10,7 @@ import { finalCountdown } from "./exercicio_09.js";
 import { print10Example } from "./exercicio_10.js";
 import { sumFive } from "./exercicio_11.js";
 import { multiplicationTable } from "./exercicio_12.js";
+import { calcAvarage } from "./exercicio_13.js";
 
 export const exercises = [
     isEvenExample,
@@ -23,5 +24,6 @@ export const exercises = [
     finalCountdown,
     print10Example,
     sumFive,
-    multiplicationTable
+    multiplicationTable,
+    calcAvarage
 ]
